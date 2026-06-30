@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="githab.vcxproj" />
+  <Project Path="githab.vcxproj" Id="8c2a2c64-93c4-4ac5-9b99-c32a8efadb1f" />
 </Solution>
