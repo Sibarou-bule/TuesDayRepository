@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\授業１">
+      <UniqueIdentifier>{6438eda9-0d2c-4f54-8089-67a10d0dde29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\課題１">
+      <UniqueIdentifier>{07a390e0-70d4-4c46-920f-090a1f9af56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\課題２">
+      <UniqueIdentifier>{efdd0889-9405-4c9b-96b0-e948526c0cc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zyugyou#1.cpp">
+      <Filter>ソース ファイル\授業１</Filter>
+    </ClCompile>
+    <ClCompile Include="20260707_Prac1_渡邊彪馬.cpp">
+      <Filter>ソース ファイル\課題１</Filter>
+    </ClCompile>
+    <ClCompile Include="20260707_PracMain2_渡邊彪馬.cpp">
+      <Filter>ソース ファイル\課題２</Filter>
+    </ClCompile>
+    <ClCompile Include="20260707_Function2_渡邊彪馬.cpp">
+      <Filter>ソース ファイル\課題２</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Prac_1.h">
+      <Filter>ソース ファイル\課題１</Filter>
+    </ClInclude>
+    <ClInclude Include="20260707_Header2_渡邊彪馬.h">
+      <Filter>ソース ファイル\課題２</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
