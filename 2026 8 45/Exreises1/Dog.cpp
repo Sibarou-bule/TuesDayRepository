@@ -2,7 +2,7 @@
 #include "Dog.h"
 using namespace std;
 
-void Dog::Name(const char*name)
+void Dog::Name(const char* name)
 {
 	this->name = name;
 }
