@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scorcerer">
+      <UniqueIdentifier>{d9b378b3-c652-4b5f-a1d3-e6bcc5caa750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Megumi">
+      <UniqueIdentifier>{3955dde5-b78e-42df-afc1-958f03183e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inumaki">
+      <UniqueIdentifier>{fb6afeb9-2f38-49c0-9b25-3b8899aaa5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gojo">
+      <UniqueIdentifier>{2f7e65a8-ed34-48a6-8b84-a56837cac4e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scorcerer.cpp">
+      <Filter>Scorcerer</Filter>
+    </ClCompile>
+    <ClCompile Include="Megumi.cpp">
+      <Filter>Megumi</Filter>
+    </ClCompile>
+    <ClCompile Include="Inumaki.cpp">
+      <Filter>Inumaki</Filter>
+    </ClCompile>
+    <ClCompile Include="Gojo.cpp">
+      <Filter>Gojo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scorcerer.h">
+      <Filter>Scorcerer</Filter>
+    </ClInclude>
+    <ClInclude Include="Megumi.h">
+      <Filter>Megumi</Filter>
+    </ClInclude>
+    <ClInclude Include="Inumaki.h">
+      <Filter>Inumaki</Filter>
+    </ClInclude>
+    <ClInclude Include="Gojo.h">
+      <Filter>Gojo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
